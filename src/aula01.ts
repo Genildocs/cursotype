@@ -1,4 +1,4 @@
-let idade = 31;
+const idade = 31;
 if (idade > 18) {
   console.log('É maior de idade');
 } else {
@@ -20,3 +20,24 @@ console.log(pessoa.idade, pessoa.nome);
 
 const soma: (x: number, y: number) => number = (x, y) => x + y;
 console.log(soma(2, 2));
+
+//void
+function sayHello(): void {
+  console.log('Hello');
+}
+
+sayHello();
+
+const person = {
+  nome: 'Genildo',
+  idade: 31,
+
+  exibirNome(): void {
+    console.log(this.nome);
+  },
+};
+
+person.exibirNome();
+console.log(person.idade);
+
+//object
