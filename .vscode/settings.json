@@ -1,0 +1,10 @@
+{
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "npx ts-node --files"
+  },
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "450",
+  "editor.fontSize": 13
+}
