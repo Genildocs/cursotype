@@ -1,4 +1,4 @@
-const idade = 31;
+const idade: number = 31;
 if (idade > 18) {
   console.log('É maior de idade');
 } else {

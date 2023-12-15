@@ -10,7 +10,7 @@
 
 - Array
 
-  -
+  - readonly -> deixa o array imutavel
 
 - Variaveis
 

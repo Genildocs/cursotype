@@ -8,3 +8,6 @@ const sum = arrOfnumbers.reduce((acc, curr) => {
   return acc + curr;
 });
 console.log(`Sum is: ${sum}`);
+
+const meuNome: ReadonlyArray<string> = ['Genildo', 'Souza'];
+console.log(meuNome);
