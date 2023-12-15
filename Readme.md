@@ -8,5 +8,10 @@
 
   - função ou metodo que não tem retorno.
 
-- String
+- Array
+
+  -
+
+- Variaveis
+
   - Quando declaramos uma variavel geralmente o typscript faz inferencia de tipo automaticamente.
