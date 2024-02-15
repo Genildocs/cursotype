@@ -18,8 +18,8 @@ console.log(pessoa.idade, pessoa.nome);
 
 //Function
 
-const soma: (x: number, y: number) => number = (x, y) => x + y;
-console.log(soma(2, 2));
+// const soma: (x: number, y: number) => number = (x, y) => x + y;
+// console.log(soma(2, 2));
 
 //void
 function sayHello(): void {
