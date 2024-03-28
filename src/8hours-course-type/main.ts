@@ -4,7 +4,7 @@ const soma = (a: number, b: number): number => {
 
 console.log(soma(18, 33));
 
-//UNion type
+//Union type
 let postId: string | number;
 //Aceita varios tipo numa mesma varivel, bom para quando voce nao saber quais dados provem do servidor.
 postId = 'Genildo';
@@ -43,3 +43,4 @@ const greeAnime = (animes: animeAtual) => {
 };
 //Criado uma função que recebe como argumento um objeto com as especificações da interface animeAtual
 console.log(greeAnime(anime1));
+

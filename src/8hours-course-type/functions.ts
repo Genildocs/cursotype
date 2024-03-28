@@ -11,7 +11,7 @@ interface Pessoa {
   idade: number;
   sexo: string;
   estadoCivil?: string;
-  anoDeNascimento: number;
+  anoDeNascimento?: number;
 }
 
 const estudante: Pessoa = {
@@ -19,7 +19,7 @@ const estudante: Pessoa = {
   idade: 31,
   sexo: 'Masculino',
   estadoCivil: 'Solteiro',
-  anoDeNascimento: 1992,
+
 };
 
 //functions
@@ -61,3 +61,4 @@ const addAll = (a: number, b:number, c?:number): number =>{
 }
 
 console.log(addAll(5,6,15))
+

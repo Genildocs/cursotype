@@ -6,11 +6,9 @@ class Programmer {
   ) {
     this.name;
     this.skills;
-    this.age = 31;
+    this.age;
   }
-
-  idade = this.age;
 }
 
 const Genildo = new Programmer('Genildo', ['JS', 'Css'], 31);
-console.log(Genildo.idade);
+console.log(Genildo);
